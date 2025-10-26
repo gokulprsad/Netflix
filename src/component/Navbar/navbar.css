@@ -181,7 +181,7 @@
 
 .banner-buttons button {
   padding: 0.8rem 2rem;
-  border: none;
+  /* border: none; */
   border-radius: 4px;
   font-size: 1.1rem;
   cursor: pointer;
