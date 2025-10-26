@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import profile from '../../assets/profile.png'
+import search from '../../assets/search.png'
+import scrollDown from '../../assets/scroll-down.svg'
 
 const Navbar = () => {
   return (
@@ -17,11 +19,11 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <div className="search">
-          <input type="text" placeholder="Search" className="search-input" />
-          <button className="search-btn">🔍</button>
+          <img className ="search-btn"src= {search} alt="" />
         </div>
         <div className="profile">
           <img src={profile} alt="Profile" className="profile-img" />
+          <img src={scrollDown} alt="Scroll down" className="scroll-down" />
         </div>
       </div>
     </nav>
